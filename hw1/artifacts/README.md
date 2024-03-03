@@ -1,3 +1,5 @@
+## nl
+
 ```bash
 (.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\main.py -h              
 usage: nl_main.py [-h] [-b {a,t}] [-n {ln,rn,rz}] [-w NUMBER_WIDTH] [file]
@@ -92,6 +94,8 @@ end
 ^C
 ```
 
+## Tail
+
 ```bash
 (.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\tail_main.py --help                                                          
 usage: tail_main.py [-h] [-n LINES] [files ...]
@@ -131,5 +135,33 @@ now youre just somebody that i used to know
 3
 4
 ^C
+(.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  
+```
+
+## wc
+
+```bash
+(.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\wc_main.py --help
+usage: wc_main.py [-h] [files ...]
+
+Python version of the wc command
+
+positional arguments:
+  files       The file to display the last lines of
+
+options:
+  -h, --help  show this help message and exit
+```
+
+```bash
+(.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\wc_main.py 
+sdfs dfsd fsd fsdf
+     1      4     19 
+(.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\wc_main.py .\hw1\artifacts\test_file.txt .\hw1\artifacts\test_file.txt
+    16     92    454 .\hw1\artifacts\test_file.txt
+    16     92    454 .\hw1\artifacts\test_file.txt
+    32    184    908 total
+(.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  python .\hw1\src\wc_main.py .\hw1\artifacts\test_file.txt
+    16     92    454 .\hw1\artifacts\test_file.txt
 (.venv)  chernov@DESKTOP-4QEAK3M ~\....\advanced_python_hw  master  
 ```
