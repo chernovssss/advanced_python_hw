@@ -33,6 +33,7 @@ def main():
         except KeyboardInterrupt:
             for line in to_be_printed:
                 print(line, end='')
+
             print('^C')
             sys.exit(0)
     else:
