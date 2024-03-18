@@ -6,3 +6,6 @@
 - [x] tail | [code](./hw1/src/tail_main.py)
 - [x] wc | [code](./hw1/src/wc_main.py)
 
+## Homework 2
+
+- [x] artifacts | [folder](./hw2/artifacts)

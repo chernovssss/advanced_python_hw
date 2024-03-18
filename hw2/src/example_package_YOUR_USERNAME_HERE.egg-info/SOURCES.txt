@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/latex_generator.py
+src/main21.py
+src/example_package_YOUR_USERNAME_HERE.egg-info/PKG-INFO
+src/example_package_YOUR_USERNAME_HERE.egg-info/SOURCES.txt
+src/example_package_YOUR_USERNAME_HERE.egg-info/dependency_links.txt
+src/example_package_YOUR_USERNAME_HERE.egg-info/top_level.txt
+src/for_packaging_test_ssss/__init__.py
+src/for_packaging_test_ssss/latex_generator.py
+src/for_packaging_test_ssss/main21.py
