@@ -19,6 +19,7 @@ def main():
     print(document)
     save_latex(document, 'artifacts', 'table.tex')
     tex_file = "artifacts/table.tex"
+
     pdl = PDFLaTeX.from_texfile(tex_file)
     pdl.create_pdf(keep_pdf_file=True)
 
