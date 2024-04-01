@@ -23,3 +23,8 @@
 - [x] Миксины | [code](./hw3/src/mixins.py)
 - [x] main | [code](./hw3/src/main.py)
 
+## Homework 4
+
+- [x] artifacts | [folder](./hw4/artifacts)
+- [x] 4.1 и 4.2 | [code](./hw4/src/main.py)
+- [x] 4.3 | [code](./hw4/src/main43.py)
