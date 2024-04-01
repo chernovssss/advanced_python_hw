@@ -1,0 +1,3 @@
+one_hundred_times took 10.698584794998169 seconds
+ten_threads_ten_times took 10.654921770095825 seconds
+ten_processes_ten_times took 5.436795949935913 seconds
