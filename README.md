@@ -33,3 +33,5 @@
 
 - [x] artifacts | [folder](./hw5/artifacts) оставил только первую и последнюю
 - [x] 5.1 | [code](./hw5/src/main.py)
+- [ ] 5.2
+- [ ] 5.3 
