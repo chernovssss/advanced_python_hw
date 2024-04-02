@@ -28,3 +28,8 @@
 - [x] artifacts | [folder](./hw4/artifacts)
 - [x] 4.1 и 4.2 | [code](./hw4/src/main.py)
 - [x] 4.3 | [code](./hw4/src/main43.py)
+
+## Homework 5
+
+- [x] artifacts | [folder](./hw5/artifacts) оставил только первую и последнюю
+- [x] 5.1 | [code](./hw5/src/main.py)
