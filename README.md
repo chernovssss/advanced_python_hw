@@ -33,5 +33,5 @@
 
 - [x] artifacts | [folder](./hw5/artifacts) оставил только первую и последнюю
 - [x] 5.1 | [code](./hw5/src/main.py)
-- [x] 5.2 | [code](./hw5/scrap_src/main.py) и [code](./hw5/scrap_src/test.ipynb) поковырялся, но завис на парсинге
+- [] 5.2 | [code](./hw5/scrap_src/main.py) и [code](./hw5/scrap_src/test.ipynb) поковырялся, но завис на парсинге
 - [ ] 5.3 
