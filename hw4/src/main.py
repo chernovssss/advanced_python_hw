@@ -54,13 +54,13 @@ def ten_processes_ten_times(n):
 
 
 def fibonacci_main():
-    one_hundred_times(100_000)
-    ten_threads_ten_times(100_000)
-    ten_processes_ten_times(100_000)
+    one_hundred_times(1000000)
+    ten_threads_ten_times(1000000)
+    ten_processes_ten_times(1000000)
 
 
 @timeit
-def integrate(f, a, b, *, n_jobs=1, n_iter=1000):
+def integrate(f, a, b, *, n_jobs=1, n_iter=1_000_000):
     acc = 0
     step = (b - a) / n_iter
     for i in range(n_iter):
@@ -109,6 +109,5 @@ def integrate_main():
 
 
 if __name__ == '__main__':
-    pass
-    # fibonacci_main()
+    fibonacci_main()
     # integrate_main()

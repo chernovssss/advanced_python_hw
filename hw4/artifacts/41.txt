@@ -1,3 +1,6 @@
-one_hundred_times took 10.698584794998169 seconds
-ten_threads_ten_times took 10.654921770095825 seconds
-ten_processes_ten_times took 5.436795949935913 seconds
+C:\Users\chernov\PycharmProjects\advanced_python_hw\.venv\Scripts\python.exe C:\Users\chernov\PycharmProjects\advanced_python_hw\hw4\src\main.py
+one_hundred_times took 1159.131807565689 seconds
+ten_threads_ten_times took 1103.965529203415 seconds
+ten_processes_ten_times took 261.61177468299866 seconds
+
+Process finished with exit code 0
