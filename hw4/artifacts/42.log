@@ -44,3 +44,28 @@
 2024-04-02T00:38:23.717122+0300 INFO Start ThreadPoolExecutor with 4 jobs
 2024-04-02T00:38:23.738113+0300 INFO Start ThreadPoolExecutor with 8 jobs
 2024-04-02T00:38:23.781113+0300 INFO Start ThreadPoolExecutor with 16 jobs
+
+2024-05-12 21:09:56.368 | INFO     | __main__:integrate_main:98 - Start base
+2024-05-12 21:09:56.368 | INFO     | __main__:integrate_main:100 - Start base with 4 jobs
+integrate took 0.17200064659118652 seconds
+2024-05-12 21:09:56.540 | INFO     | __main__:integrate_main:102 - Start base with 4 jobs
+2024-05-12 21:09:56.541 | INFO     | __main__:integrate_main:100 - Start base with 8 jobs
+integrate took 0.17166972160339355 seconds
+2024-05-12 21:09:56.712 | INFO     | __main__:integrate_main:102 - Start base with 8 jobs
+2024-05-12 21:09:56.712 | INFO     | __main__:integrate_main:100 - Start base with 16 jobs
+integrate took 0.17357182502746582 seconds
+2024-05-12 21:09:56.886 | INFO     | __main__:integrate_main:102 - Start base with 16 jobs
+2024-05-12 21:09:56.887 | INFO     | __main__:integrate_main:103 - End base
+2024-05-12 21:09:56.887 | INFO     | __main__:integrate_main:104 - Start concurrent
+2024-05-12 21:09:56.887 | INFO     | __main__:integrate_main:107 - Start ProcessPoolExecutor with 4 jobs
+integrate_concurrent took 509.540678024292 seconds
+2024-05-12 21:18:26.428 | INFO     | __main__:integrate_main:107 - Start ProcessPoolExecutor with 8 jobs
+integrate_concurrent took 137.8325810432434 seconds
+2024-05-12 21:20:44.261 | INFO     | __main__:integrate_main:107 - Start ProcessPoolExecutor with 16 jobs
+integrate_concurrent took 44.51823568344116 seconds
+2024-05-12 21:21:28.779 | INFO     | __main__:integrate_main:107 - Start ThreadPoolExecutor with 4 jobs
+integrate_concurrent took 9.859214782714844 seconds
+2024-05-12 21:21:38.640 | INFO     | __main__:integrate_main:107 - Start ThreadPoolExecutor with 8 jobs
+integrate_concurrent took 4.502397298812866 seconds
+2024-05-12 21:21:43.143 | INFO     | __main__:integrate_main:107 - Start ThreadPoolExecutor with 16 jobs
+integrate_concurrent took 1.671278953552246 seconds
